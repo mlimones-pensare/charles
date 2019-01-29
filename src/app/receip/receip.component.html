@@ -1,0 +1,5 @@
+<p>Nombre: {{ nombre }}</p>
+<p>Pasos</p>
+<ul>
+  <li *ngFor="let paso of pasos" (click)="onClick(paso)">{{ paso }}</li>
+</ul>
